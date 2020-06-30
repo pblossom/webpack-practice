@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "iconfont";
+  src: url("./font/iconfont.eot?t=1593501495414"); /* IE9 */
+  src: url("./font/iconfont.eot?t=1593501495414#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAP0AAsAAAAACEgAAAOlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCCfgqENIQAATYCJAMMCwgABCAFhG0HOxtDBxHVmyfJfiTGMSnrzJI3oWo3EzzQe9abTLTtNdsVT1aSM/wJ8FMoDnYDYHMz5F+NilAsyXneT9+Rbgifhh//czm9Kd7676W9nNbaeO/4qLL0OJACHHMDBVogCXrL4cyr8OhaDwF4yKQQoladRjYmKqSbAET/Pr26YKZsqDVUgYlALxmrIhajYSpzlIvAIv/74g0lhAkKmoT0bdazdneqPd/7fJ+cHJlMexdBPp4HECeBBAoBKgi31NcMGeYKIfHoOZVcsK5mAp7vi0Se73Vlq/3DAwUBQofosgCZT6uckdyWxfp9oDhj+Y111gEL2A1CU+zxEJqBYZkew2DhQpZuwR30cVNE6LEduOkEH7UK33FtEQrXvBR0AwGncyjkhp90Tszp2KGw3SoYsC+HnHDY7RYMOoGH3ZDGzR82znVXxndeHr88wWHy1oTgglartgtRl+Xx8csRNfNSB01ZmyjKrkpaZU9eHh+Y765cKUQXb7c02+7arUsPy/K5Vv0pSUmr5q0AV7s0XtXTuWs3p8KWu1BkX+5DB3LtLXw4d64DhXV03zvUOXG/JL4GKUsH/Ww1as+eArXTNkQ3S6kW37jT1JoFO0zIWn3hzZ+tR8fVe1DCVz9lqfr7fklfvdRleaq9bDVq7578tdM2Wk1N0SYdJ9cs1H58thpoK/z+PanwWQRLBkpky7atxxAjaunItA1+59FsK3aW9cnxb+i/c6rDNn8df4+sPdy+vif7980ZoketvGCsGTzT8jPhwWuM1Rm1dPpsN/56ibFtx7ajNN+bOvps32wdu0tR0i83Umy9jqzulx01WI5qK256vQSdAYjslFdkXQB5VOnz03/DObX82U7Rlb6ZXhWAO9nNsn4sslOlfd5EAVH+i+UtS1RDSexS1WS2zCpKBmO8RAlIpCARSCiW+/0DCRB7BKYkB1AwyACJSS5UJQuBhpdSoGNSFTwUpO5kL3EMRSLUKKAAMxAI/OwGBYvTIPFzCVXJe6CRyDvQ8QsJHlwRN6cXOY9IqiajFnRg/pAs7Z45RQXUG4azak4qfc4LuaUkTP2YLV5xRx5jQPuEWcSDZ9pgRZthrQQHU0YrfRQ5lmHwZS/qLW2doiajFnSA+QPJ0u5ddlG5z98wnFVzDaMu/kJuqXFgomdsgV51eyvGtVzSPmFGxAOeaQNW5MFKcwQc5a0yWumJPTLHwoAr+ba6fn7D9nxrAA/kCCkUIYWK3l/v73ReulKLadPUdQAAAA==")
+      format("woff2"),
+    url("./font/iconfont.woff?t=1593501495414") format("woff"),
+    url("./font/iconfont.ttf?t=1593501495414") format("truetype"),
+    /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+      url("./font/iconfont.svg?t=1593501495414#iconfont") format("svg"); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.iconlanqiu:before {
+  content: "\e6b2";
+}
+
+.iconboshimao:before {
+  content: "\e6b1";
+}

@@ -1,11 +1,15 @@
 var Header = require("./header.js");
 var Sidebar = require("./sidebar.js");
 var Content = require("./content.js");
-import Avatar from "./avatar";
 
-//import "./index.scss"; //在这里引入的样式作用在全局,容易出现样式冲突，需要用模块化的css
+import "./font.scss";
 
 new Header();
 new Sidebar();
 new Content();
-Avatar();
+
+var root = document.getElementById("root");
+
+var font = document.createElement("div");
+font.innerHTML = "<div class='iconfont iconlanqiu'>font</div>";
+root.append(font);
