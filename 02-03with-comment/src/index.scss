@@ -1,0 +1,8 @@
+@import "./abc.scss"; //css的import语法
+body {
+  .avatar {
+    width: 150px;
+    height: 150px;
+    transform: translate(100px, 100px);
+  }
+}

@@ -1,6 +1,11 @@
-var dom = document.getElementById("root");
+var Header = require("./header.js");
+var Sidebar = require("./sidebar.js");
+var Content = require("./content.js");
+import Avatar from "./avatar";
 
-var head = document.createElement("div");
-head.innerText = "head";
+//import "./index.scss"; //在这里引入的样式作用在全局,容易出现样式冲突，需要用模块化的css
 
-dom.appendChild(head);
+new Header();
+new Sidebar();
+new Content();
+Avatar();
